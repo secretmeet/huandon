@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">焕动</string>
+    <string name="title_home">我的</string>
+    <string name="title_dashboard">打卡</string>
+    <string name="title_discover">发现</string>
+    <string name="title_sport">运动</string>
+    <string name="title_community">社区</string>
+    <string name="user_icon">user_icon</string>
+    <string name="text_follow">关注</string>
+    <string name="text_fans">粉丝</string>
+    <string name="text_name">Taylor</string>
+    <string name="shopping_item">shopping_item</string>
+    <string name="shopping_car">购物车</string>
+    <string name="shopping_list">订单</string>
+    <string name="shopping_ticket">优惠券</string>
+    <string name="shopping_address">收获地址</string>
+    <string name="shopping_wallet">我的钱包</string>
+    <string name="shopping_account">我的会员</string>
+    <string name="shopping_server">我的客服</string>
+    <string name="shopping_setting">设置</string>
+    <string name="membership_reward_points">积分兑换</string>
+    <string name="collection">我的收藏</string>
+    <string name="course">我的课程</string>
+    <string name="body_report">身体报告</string>
+    <string name="menu_item_message">私信</string>
+
+    <string-array name="indicator_title">
+        <item>关注</item>
+        <item>推文</item>
+        <item>咨询</item>
+        <item>最新文章</item>
+        <item>运动商城</item>
+    </string-array>
+
+
+</resources>

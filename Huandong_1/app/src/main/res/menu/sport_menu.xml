@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/firstfragment"
+        android:icon="@drawable/advice"
+        android:title="推荐"
+        android:visible="true" />
+    <item
+        android:id="@+id/secondfragment"
+        android:icon="@drawable/subject"
+        android:title="课程"
+        android:visible="true" />
+    <item
+        android:id="@+id/thirdfragment"
+        android:icon="@drawable/train"
+        android:title="训练"
+        android:visible="true" />
+    <item
+        android:id="@+id/fourthfragment"
+        android:icon="@drawable/sport"
+        android:title="健身房"
+        android:visible="true" />
+</menu>

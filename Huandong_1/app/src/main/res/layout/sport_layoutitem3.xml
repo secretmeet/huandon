@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="#fff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="vertical"
+
+
+        >
+
+        <TextView
+            android:id="@+id/sport3_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="10dp"
+             />
+
+        <Button
+            android:id="@+id/sportButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/sport3_text"
+            android:layout_alignParentRight="true"
+            android:background="@null"
+             />
+
+
+    </RelativeLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="110dp"
+        android:columnCount="2"
+        android:rowCount="1"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        >
+
+
+        <Button
+            android:id="@+id/sport_layoutitem3_button1"
+
+            android:layout_width="70dp"
+            android:layout_height="85dp"
+            android:layout_columnWeight="1"
+            android:layout_gravity="center_vertical"
+
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/button_shape1"
+            android:textColor="#035328"
+
+            android:textStyle="bold"></Button>
+
+        <Button
+            android:id="@+id/sport_layoutitem3_button2"
+            android:layout_width="70dp"
+            android:layout_height="85dp"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="15dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="15dp"
+
+            android:background="@drawable/button_shape2"
+            android:textColor="#033035"
+            android:textStyle="bold"
+            ></Button>
+    </GridLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff">
+
+        <ImageView
+            android:id="@+id/sport_layoutitem3_image1"
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:scaleType="centerCrop"
+            ></ImageView>
+
+        <TextView
+            android:id="@+id/sport3_layoutitem3_text1"
+            android:layout_width="match_parent"
+            android:layout_height="92dp"
+            android:layout_weight="1"
+            android:background="@drawable/frame"
+            android:textSize="20sp">
+
+        </TextView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#fff">
+
+        <ImageView
+            android:id="@+id/sport_layoutitem3_image2"
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:scaleType="centerCrop"
+
+
+            ></ImageView>
+
+        <TextView
+            android:id="@+id/sport3_layoutitem3_text2"
+            android:layout_width="wrap_content"
+            android:layout_height="92dp"
+            android:layout_weight="1"
+            android:background="@drawable/frame"
+            android:textSize="20sp">
+
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#fff">
+
+        <ImageView
+            android:id="@+id/sport_layoutitem3_image3"
+            android:layout_width="90dp"
+            android:layout_height="70dp"
+
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="10dp"
+            android:scaleType="centerCrop"
+
+
+            ></ImageView>
+
+        <TextView
+            android:id="@+id/sport3_layoutitem3_text3"
+            android:layout_width="wrap_content"
+            android:layout_height="92dp"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:background="@drawable/frame">
+
+        </TextView>
+    </LinearLayout>
+
+
+</LinearLayout>
+
